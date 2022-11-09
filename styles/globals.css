@@ -1,3 +1,348 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
+
+.nav-bg{
+  background-image: linear-gradient(270deg,#302f39,#223240 95%);
+}
+.hero-bg{
+  background-image: linear-gradient(90deg,#302f39,#223240);
+}
+.nav-link{
+  @apply font-fraunces72ptsupersoft  text-primary text-[1.6rem] font-semibold leading-10
+} 
+.background-image {
+  background-image: url(/images/bg11.webp),
+  -webkit-gradient(linear,left top,left bottom,from(rgba(213,173,143,.3)),to(rgba(213,173,143,.3))),url(/images/bgwave.svg);
+  background-image: url(/images/bg11.webp),
+  linear-gradient(180deg,rgba(213,173,143,.3),rgba(213,173,143,.3)),url(/images/bgwave.svg);
+  background-position: 0 0,0 0,0 0;
+  background-size: 50px,auto,cover;
+}
+
+.slanted{
+  border-radius: 80% 80% 0px 100%;
+  background-image: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp');
+  background-color:#223240;
+  padding: 80px 40px 80px 60px;
+  box-shadow:#2d4850 0px 10px 24px 0px;
+  color:#ffffff
+}
+.slanted2{
+  border-radius: 100% 100% 50% 0px;
+  background-image: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp');
+  background-color:#2d4850;
+  padding: 80px 40px 80px 60px;
+  box-shadow:#2d4850 0px 10px 24px 0px;
+  color:#ffffff
+}
+.slanted3{
+  border-radius: 100% 0px 60% 60%;
+  background-image: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp');
+  background-color:#c47d57;
+  padding: 80px 40px 80px 60px;
+  box-shadow:#c47d57 0px 10px 24px 0px;
+  color:#ffffff
+}
+.slanted4{
+  border-radius: 0px 100% 60% 60%;
+  background-image: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/61bbc96064c698bc567db060_noise10.webp');
+  background-color:#b55730;
+  padding: 80px 40px 80px 60px;
+  box-shadow:#c47d57 0px 10px 24px 0px;
+  color:#ffffff
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764eff5d8a0701b7ac6b8_Geomanist-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efa1b3758aca3182fb_Geomanist-Black-Italic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efb1c5850618211b4d_Geomanist-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efcc04b8a25857d88f_Geomanist-ExtraLight-Italic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efaab43578f5095e5e_Geomanist-Bold-Italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist book';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efd5a70134ded94e90_Geomanist-Book-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist book';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764ef912c660559d8e1dd_Geomanist-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efa7499c408669dec3_Geomanist-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efbe01876b37e8228b_Geomanist-Medium-Italic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efb834a9793a19d15d_Geomanist-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764ef00e1e1656b1cabe4_Geomanist-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764ef2cc2cc0064ea26dd_Geomanist-Light-Italic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efdb36e9022efc368a_Geomanist-Regular-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764ef5e2158274613afb4_Geomanist-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efb142676b5fa03ff3_Geomanist-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764efa1b3757cda3182fc_Geomanist-Thin-Italic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist ultra';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764eff80152e874e20628_Geomanist-Ultra-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Geomanist ultra';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8764ef28fa4953ecff757c_Geomanist-Ultra.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e3ab189606ea32f73_Fraunces72ptSuperSoft-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e1a73962ed32341b8_Fraunces72ptSuperSoft-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e2ef6200b430e6c78_Fraunces72ptSuperSoft-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3edbaafda8cdfbf02a_Fraunces72ptSuperSoft-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e270cdebfd78a01e5_Fraunces72ptSuperSoft-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e240cf712017a74b1_Fraunces72ptSuperSoft-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e67408a53de7b6670_Fraunces72ptSuperSoft-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e6cd868faec8abe83_Fraunces72ptSuperSoft-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3ee6bcfd51ec14bc52_Fraunces72ptSuperSoft-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e06da9a145890a128_Fraunces72ptSuperSoft-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3e270cde4edc8a01e6_Fraunces72ptSuperSoft-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3fe92de96eebc79511_Fraunces144ptSuperSoft-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa3fc55c8634dea2f51d_Fraunces144ptSuperSoft-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa407e04846d2c2a4ea3_Fraunces144ptSuperSoft-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa4033da417a64530d85_Fraunces144ptSuperSoft-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa409b4d780e8f4a70d0_Fraunces144ptSuperSoft-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa406cd86882438abe84_Fraunces144ptSuperSoft-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa402ef620bfee0e6c79_Fraunces144ptSuperSoft-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa4093cd547d585c569c_Fraunces144ptSuperSoft-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa40c15f1cef33faaad2_Fraunces144ptSuperSoft-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa4085ee3ed211b24199_Fraunces144ptSuperSoft-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa40dbaafd11b5fbf02d_Fraunces144ptSuperSoft-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces144ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa404711e99fbe27cdfa_Fraunces144ptSuperSoft-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fraunces72ptsupersoft';
+  src: url('https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604faa413cf471344403bf31_Fraunces72ptSuperSoft-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
